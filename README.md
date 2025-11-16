@@ -12,7 +12,7 @@ This guide explains how to locate datasets for emotion detection from **Roboflow
 
 Roboflow provides a platform for hosting, managing, and distributing computer vision datasets. The `dataset-download-roboflow.py` script uses the Roboflow API to automatically download emotion detection datasets in YOLOv11 format.
 
-### 🎯 Why Datasets Matter in AI
+### Why Datasets Matter in AI
 
 Before machines can detect emotions, they need to **learn** from examples. That's where datasets come in:
 
@@ -91,7 +91,7 @@ If you want to create a custom dataset:
    - Click on your profile icon (top-right)
    - Select "Account"
    - Copy your **Private API Key**
-   - ⚠️ **Keep this secret** — never commit to public repositories
+   - **Keep this secret** — never commit to public repositories
 
 ## Step 3: Extracting Dataset Information
 
@@ -256,7 +256,7 @@ Format (YOLO):
 
 ## Security Best Practices
 
-⚠️ **Important Security Notes**:
+**Important Security Notes**:
 
 1. **Never commit API keys** to version control:
    ```bash
